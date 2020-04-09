@@ -1,5 +1,9 @@
 # Fdb version 3
+<<<<<<< HEAD
 ["pdflatex"] 1586434149 "cv.tex" "cv.pdf" "cv" 1586434149
+=======
+["pdflatex"] 1585586350 "cv.tex" "cv.pdf" "cv" 1585586350
+>>>>>>> 1fd2639087b8c89a2a4644e6b670ca257a790fdc
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1572595918 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc" 1572568373 6938 5135be6a8802f13a7faf296d1959a1ab ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1572595918 3332 103109f5612ad95229751940c61aada0 ""
@@ -48,7 +52,10 @@
   "/usr/share/texmf-dist/tex/latex/base/inputenc.sty" 1572595918 5050 aae684508bdbe288a555910330f17c1b ""
   "/usr/share/texmf-dist/tex/latex/base/t1enc.def" 1572595918 10687 a7567925dae1870ed1d4a2e413995d60 ""
   "/usr/share/texmf-dist/tex/latex/currvita/currvita.sty" 1572592815 5754 ddd142741a089dfb4fa9a4885fa54f6b ""
+<<<<<<< HEAD
   "/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty" 1572592815 51697 f8f08183cd2080d9d18a41432d651dfb ""
+=======
+>>>>>>> 1fd2639087b8c89a2a4644e6b670ca257a790fdc
   "/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty" 1572595918 11128 a53805799bebfed6358fc1658a18e41f ""
   "/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1572595918 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def" 1572595918 17334 520b9b85ad8a2a48eda3f643e27a5179 ""
@@ -90,6 +97,7 @@
   "/usr/share/texmf-dist/tex/latex/url/url.sty" 1572595918 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1572595918 4962 9c1069474ff71dbc47d5006555e352d3 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1572595918 33301 a3134070eacafb10b1f371612ce2650d ""
+<<<<<<< HEAD
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1586344788 4572998 f9631eebba48c3ee98e5d310044b0a09 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1586344766 8044938 e60b0e981ad8bc57fd745c2e55c7a4f7 ""
   "cv.aux" 1586434149 824 b916f35cd06faa98b40c7ed326730073 "pdflatex"
@@ -98,5 +106,15 @@
   (generated)
   "cv.out"
   "cv.log"
+=======
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1585042667 4572998 f9631eebba48c3ee98e5d310044b0a09 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1585042648 8044939 32f3ad64a571a4c806d0d80550369105 ""
+  "cv.aux" 1585586350 824 b916f35cd06faa98b40c7ed326730073 "pdflatex"
+  "cv.out" 1585586350 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "cv.tex" 1585586349 5254 749544f64d86a3d680d96595fa559a98 ""
+  (generated)
+  "cv.log"
+  "cv.out"
+>>>>>>> 1fd2639087b8c89a2a4644e6b670ca257a790fdc
   "cv.pdf"
   "cv.aux"
