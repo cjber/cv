@@ -1,0 +1,138 @@
+\documentclass{scrartcl}
+\usepackage[openbib]{currvita}
+\usepackage[utf8]{inputenc}
+\usepackage[bitstream-charter]{mathdesign}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+}
+\usepackage{enumitem}
+\setlist{nosep} 
+
+\urlstyle{same}
+
+\setlength{\parindent}{0pt}
+
+
+\newcommand*\ruleline[1]{\par\noindent\raisebox{.8ex}{\makebox[\linewidth]{\hrulefill\hspace{1ex}\raisebox{-.6ex}{#1}\hspace{1ex}}}}
+\newcommand*\rulelinel[1]{\par\noindent\raisebox{.8ex}{\makebox[\linewidth]{\hrulefill\hspace{1ex}\raisebox{-.6ex}{#1}\hspace{1ex}\hrulefill}}}
+
+\begin{document}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\lhead{\rulelinel{\fontsize{9}{9}\bfseries Cillian Berragan \textbullet\ CV}}
+\rfoot{\ruleline{\fontsize{9}{9}\bfseries Page \thepage\ of \pageref{LastPage}}}
+\setlength{\footskip}{20pt}
+
+\begin{cv}{Cillian Berragan}
+
+\begin{cvlist}{Personal Details}
+    \item cjberragan@gmail.com
+    \item 07787796620
+    \item \href{cjber.github.io}{cjber.github.io/about}
+    \item \href{github.com/cjber}{github.com/cjber}
+\end{cvlist}
+
+    \small Graduate in \textit{Geographic Data Science} MSc from the University of Liverpool with a distinction (82\%). I am currently searching for a job that will broaden my analytical knowledge and skills, and build on my passion for data science.
+
+\begin{cvlist}{Key Skills}
+\small
+\item[\textbf{R:}]\href{https://cjber.github.io/tags/r/}{\textbf{R Projects}}
+\begin{itemize}\item Data Analysis, Preprocessing, Statistics; \texttt{tidyverse} packages.
+\item Data Visualisation; \texttt{ggplot2, sf} packages, including spatial data.
+\item R Markdown Notebooks; Reporting results in a readable format.
+
+\end{itemize}
+
+\vspace{5mm}
+\item[\textbf{Python:}]\href{https://cjber.github.io/tags/python/}{\textbf{Python Projects}}
+\begin{itemize}\item Deep learning; \texttt{spaCy, keras} packages, familiar with deep learning pipelines. 
+\item Data Analysis; \texttt{sklearn, pandas, numpy, geopandas} packages.
+\item Data Visualisation; \texttt{matplotlib, seaborn} packages.
+\item Object Orientated Programming.
+
+\end{itemize}
+
+\vspace{5mm}
+\item[\textbf{SQL:}]\begin{itemize}\item Database querying and relational algebra.
+\item Database Construction.
+\end{itemize}
+
+\vspace{5mm}
+\item[\textbf{QGIS \& ArcGIS:}]\begin{itemize}\item Client ready visualisations.
+\item Survey map produced for the Environment Agency.
+\item ArcMap Used professionally at TEP.
+\vspace{5mm}
+\item[\textbf{Additional Skills}:] Regular Expressions, NLP, \LaTeX, R Markdown, Unix/Linux, Vim 
+\end{itemize}
+
+\vspace{5mm}
+\item[\textbf{Written work:}]\begin{itemize}\item Academic and professional reports.
+\item One written assessment during my MSc was awarded the highest grade in that module since the university program began (98\%).
+\item Primarily use the Linux operating system with R Markdown or \LaTeX\ for written work in the Neovim text editor.
+\item Touch type at 80+ wpm.
+\end{itemize}
+\end{cvlist}
+
+\newpage
+\begin{cvlist}{Education}
+
+\item[2019 - present] \normalsize\textit{PhD Data Analytics and Society}: \textbf{University of Liverpool}
+
+    \begin{quote}
+        \small \textit{Improving the Geolocation of Emergency Service Response through Big Data}
+    \end{quote}
+
+    \small Advanced NLP with spaCy, stanza python packages. Keras implemented neural networks, pretrained models and end to end pipelines.
+
+\item[2018 - 2019] \normalsize\textit{MSc Geographic Data Science} (Distinction, 82\%): \textbf{University of Liverpool}
+
+    \begin{quote}
+        \small\textbf{Key Modules: }\textit{Geographic Data Science, Social Survey Analysis, Database and Information Systems, Web Mapping and Analysis}
+    \end{quote}
+
+    \small I utilised advanced techniques for geospatial data analysis in both R and Python, as well as worked with the relational database management system MySQL during this degree. All assessments as part of this degree were awarded a distinction.
+
+        \textbf{Dissertation:} \textit{Utilising Supervised Parametric Classification to Assess the Quality of the UK Rural Road Network using Aerial LiDAR Data.} (85\%)
+
+    \item[2014 - 2017] \normalsize\textit{BSc (Hons) Coastal Marine Biology} (First-Class, 74\%): \textbf{University of Hull}
+
+    \begin{quote}
+        \small \textbf{Key Modules:} \textit{Independent Research Project, Geographic Information Systems, Environmental Impact Assessment}
+    \end{quote}
+
+    \small While this degree had a primary focus on coastal marine ecology it allowed me to develop a keen interest in statistical analysis, in particular through the use of the R software. I utilised R heavily in my undergraduate dissertation for which I received the prize for ‘Best Dissertation’ in my department.
+
+\end{cvlist}
+
+\begin{cvlist}{Employment}
+
+    \item[2018] \normalsize\textit{Graduate Ecologist}: \textbf{TEP - The Environment Partnership}
+
+    \small Daily tasks involved interacting with clients both over the phone and in person on site, preparing quotations for new ecological work and subsequently managing jobs that were accepted by clients. I worked with the ArcGIS software package to produce maps for professional use.
+
+\end{cvlist}
+
+
+\begin{cvlist}{Interests}
+\item[]
+PADI Rescue Diver with Dry Suit Qualification, at the end of 2017 I travelled around South East Asia and Western Australia logging over 40 dives.
+
+I am interested in using R Markdown and \LaTeX\ to produce well formatted assessments for University and have produced an R Package containing various templates, hosted on my personal GitHub page. I am also passionate about contributing towards the open source programs I use and aim to assist as much as I can.
+
+
+\end{cvlist}
+
+\vfill
+
+\small \textbf{Updated:} \end{cv}
+
+\end{document}
